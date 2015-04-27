@@ -49,6 +49,17 @@ var DiagramNodeTask = A.Component.create({
         type: {
             value: 'task'
         },
+        
+        /**
+         * Assignments resource-action role scripted-assignment user
+         * 
+         * @attribute assignments
+         * @default ''
+         * @type String
+         */
+         assignments: {
+             value: ''
+         }
 
         /**
          * The width of the node.
